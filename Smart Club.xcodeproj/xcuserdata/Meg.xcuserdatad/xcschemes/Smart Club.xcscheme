@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "94B2657D1CE3D614003B5A0C"
+               BlueprintIdentifier = "94B38A151CEBB71F00925126"
                BuildableName = "Smart Club.app"
                BlueprintName = "Smart Club"
                ReferencedContainer = "container:Smart Club.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "94B265911CE3D614003B5A0C"
+               BlueprintIdentifier = "94B38A2E1CEBB71F00925126"
                BuildableName = "Smart ClubTests.xctest"
                BlueprintName = "Smart ClubTests"
                ReferencedContainer = "container:Smart Club.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "94B2659C1CE3D614003B5A0C"
+               BlueprintIdentifier = "94B38A391CEBB71F00925126"
                BuildableName = "Smart ClubUITests.xctest"
                BlueprintName = "Smart ClubUITests"
                ReferencedContainer = "container:Smart Club.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "94B2657D1CE3D614003B5A0C"
+            BlueprintIdentifier = "94B38A151CEBB71F00925126"
             BuildableName = "Smart Club.app"
             BlueprintName = "Smart Club"
             ReferencedContainer = "container:Smart Club.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "94B2657D1CE3D614003B5A0C"
+            BlueprintIdentifier = "94B38A151CEBB71F00925126"
             BuildableName = "Smart Club.app"
             BlueprintName = "Smart Club"
             ReferencedContainer = "container:Smart Club.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "94B2657D1CE3D614003B5A0C"
+            BlueprintIdentifier = "94B38A151CEBB71F00925126"
             BuildableName = "Smart Club.app"
             BlueprintName = "Smart Club"
             ReferencedContainer = "container:Smart Club.xcodeproj">
