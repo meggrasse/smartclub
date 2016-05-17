@@ -7,64 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94B265821CE3D614003B5A0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B265811CE3D614003B5A0C /* AppDelegate.swift */; };
-		94B265841CE3D614003B5A0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B265831CE3D614003B5A0C /* ViewController.swift */; };
-		94B265871CE3D614003B5A0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B265851CE3D614003B5A0C /* Main.storyboard */; };
-		94B265891CE3D614003B5A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B265881CE3D614003B5A0C /* Assets.xcassets */; };
-		94B2658C1CE3D614003B5A0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B2658A1CE3D614003B5A0C /* LaunchScreen.storyboard */; };
-		94B265971CE3D614003B5A0C /* Smart_ClubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B265961CE3D614003B5A0C /* Smart_ClubTests.swift */; };
-		94B265A21CE3D614003B5A0C /* Smart_ClubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B265A11CE3D614003B5A0C /* Smart_ClubUITests.swift */; };
+		94B38A1B1CEBB71F00925126 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B38A1A1CEBB71F00925126 /* main.m */; };
+		94B38A1E1CEBB71F00925126 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B38A1D1CEBB71F00925126 /* AppDelegate.m */; };
+		94B38A211CEBB71F00925126 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B38A201CEBB71F00925126 /* ViewController.m */; };
+		94B38A241CEBB71F00925126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B38A221CEBB71F00925126 /* Main.storyboard */; };
+		94B38A261CEBB71F00925126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B38A251CEBB71F00925126 /* Assets.xcassets */; };
+		94B38A291CEBB71F00925126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B38A271CEBB71F00925126 /* LaunchScreen.storyboard */; };
+		94B38A341CEBB71F00925126 /* Smart_ClubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B38A331CEBB71F00925126 /* Smart_ClubTests.m */; };
+		94B38A3F1CEBB71F00925126 /* Smart_ClubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B38A3E1CEBB71F00925126 /* Smart_ClubUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		94B265931CE3D614003B5A0C /* PBXContainerItemProxy */ = {
+		94B38A301CEBB71F00925126 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 94B265761CE3D614003B5A0C /* Project object */;
+			containerPortal = 94B38A0E1CEBB71F00925126 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 94B2657D1CE3D614003B5A0C;
+			remoteGlobalIDString = 94B38A151CEBB71F00925126;
 			remoteInfo = "Smart Club";
 		};
-		94B2659E1CE3D614003B5A0C /* PBXContainerItemProxy */ = {
+		94B38A3B1CEBB71F00925126 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 94B265761CE3D614003B5A0C /* Project object */;
+			containerPortal = 94B38A0E1CEBB71F00925126 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 94B2657D1CE3D614003B5A0C;
+			remoteGlobalIDString = 94B38A151CEBB71F00925126;
 			remoteInfo = "Smart Club";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		94B2657E1CE3D614003B5A0C /* Smart Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		94B265811CE3D614003B5A0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		94B265831CE3D614003B5A0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		94B265861CE3D614003B5A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		94B265881CE3D614003B5A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		94B2658B1CE3D614003B5A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		94B2658D1CE3D614003B5A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94B265921CE3D614003B5A0C /* Smart ClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart ClubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		94B265961CE3D614003B5A0C /* Smart_ClubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_ClubTests.swift; sourceTree = "<group>"; };
-		94B265981CE3D614003B5A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94B2659D1CE3D614003B5A0C /* Smart ClubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart ClubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		94B265A11CE3D614003B5A0C /* Smart_ClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_ClubUITests.swift; sourceTree = "<group>"; };
-		94B265A31CE3D614003B5A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B38A161CEBB71F00925126 /* Smart Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B38A1A1CEBB71F00925126 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94B38A1C1CEBB71F00925126 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94B38A1D1CEBB71F00925126 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94B38A1F1CEBB71F00925126 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		94B38A201CEBB71F00925126 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		94B38A231CEBB71F00925126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94B38A251CEBB71F00925126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94B38A281CEBB71F00925126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94B38A2A1CEBB71F00925126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B38A2F1CEBB71F00925126 /* Smart ClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart ClubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B38A331CEBB71F00925126 /* Smart_ClubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smart_ClubTests.m; sourceTree = "<group>"; };
+		94B38A351CEBB71F00925126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B38A3A1CEBB71F00925126 /* Smart ClubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart ClubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B38A3E1CEBB71F00925126 /* Smart_ClubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smart_ClubUITests.m; sourceTree = "<group>"; };
+		94B38A401CEBB71F00925126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		94B2657B1CE3D614003B5A0C /* Frameworks */ = {
+		94B38A131CEBB71F00925126 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94B2658F1CE3D614003B5A0C /* Frameworks */ = {
+		94B38A2C1CEBB71F00925126 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94B2659A1CE3D614003B5A0C /* Frameworks */ = {
+		94B38A371CEBB71F00925126 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,53 +78,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		94B265751CE3D614003B5A0C = {
+		94B38A0D1CEBB71F00925126 = {
 			isa = PBXGroup;
 			children = (
-				94B265801CE3D614003B5A0C /* Smart Club */,
-				94B265951CE3D614003B5A0C /* Smart ClubTests */,
-				94B265A01CE3D614003B5A0C /* Smart ClubUITests */,
-				94B2657F1CE3D614003B5A0C /* Products */,
+				94B38A181CEBB71F00925126 /* Smart Club */,
+				94B38A321CEBB71F00925126 /* Smart ClubTests */,
+				94B38A3D1CEBB71F00925126 /* Smart ClubUITests */,
+				94B38A171CEBB71F00925126 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		94B2657F1CE3D614003B5A0C /* Products */ = {
+		94B38A171CEBB71F00925126 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				94B2657E1CE3D614003B5A0C /* Smart Club.app */,
-				94B265921CE3D614003B5A0C /* Smart ClubTests.xctest */,
-				94B2659D1CE3D614003B5A0C /* Smart ClubUITests.xctest */,
+				94B38A161CEBB71F00925126 /* Smart Club.app */,
+				94B38A2F1CEBB71F00925126 /* Smart ClubTests.xctest */,
+				94B38A3A1CEBB71F00925126 /* Smart ClubUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		94B265801CE3D614003B5A0C /* Smart Club */ = {
+		94B38A181CEBB71F00925126 /* Smart Club */ = {
 			isa = PBXGroup;
 			children = (
-				94B265811CE3D614003B5A0C /* AppDelegate.swift */,
-				94B265831CE3D614003B5A0C /* ViewController.swift */,
-				94B265851CE3D614003B5A0C /* Main.storyboard */,
-				94B265881CE3D614003B5A0C /* Assets.xcassets */,
-				94B2658A1CE3D614003B5A0C /* LaunchScreen.storyboard */,
-				94B2658D1CE3D614003B5A0C /* Info.plist */,
+				94B38A1C1CEBB71F00925126 /* AppDelegate.h */,
+				94B38A1D1CEBB71F00925126 /* AppDelegate.m */,
+				94B38A1F1CEBB71F00925126 /* ViewController.h */,
+				94B38A201CEBB71F00925126 /* ViewController.m */,
+				94B38A221CEBB71F00925126 /* Main.storyboard */,
+				94B38A251CEBB71F00925126 /* Assets.xcassets */,
+				94B38A271CEBB71F00925126 /* LaunchScreen.storyboard */,
+				94B38A2A1CEBB71F00925126 /* Info.plist */,
+				94B38A191CEBB71F00925126 /* Supporting Files */,
 			);
 			path = "Smart Club";
 			sourceTree = "<group>";
 		};
-		94B265951CE3D614003B5A0C /* Smart ClubTests */ = {
+		94B38A191CEBB71F00925126 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				94B265961CE3D614003B5A0C /* Smart_ClubTests.swift */,
-				94B265981CE3D614003B5A0C /* Info.plist */,
+				94B38A1A1CEBB71F00925126 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94B38A321CEBB71F00925126 /* Smart ClubTests */ = {
+			isa = PBXGroup;
+			children = (
+				94B38A331CEBB71F00925126 /* Smart_ClubTests.m */,
+				94B38A351CEBB71F00925126 /* Info.plist */,
 			);
 			path = "Smart ClubTests";
 			sourceTree = "<group>";
 		};
-		94B265A01CE3D614003B5A0C /* Smart ClubUITests */ = {
+		94B38A3D1CEBB71F00925126 /* Smart ClubUITests */ = {
 			isa = PBXGroup;
 			children = (
-				94B265A11CE3D614003B5A0C /* Smart_ClubUITests.swift */,
-				94B265A31CE3D614003B5A0C /* Info.plist */,
+				94B38A3E1CEBB71F00925126 /* Smart_ClubUITests.m */,
+				94B38A401CEBB71F00925126 /* Info.plist */,
 			);
 			path = "Smart ClubUITests";
 			sourceTree = "<group>";
@@ -128,13 +143,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		94B2657D1CE3D614003B5A0C /* Smart Club */ = {
+		94B38A151CEBB71F00925126 /* Smart Club */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94B265A61CE3D614003B5A0C /* Build configuration list for PBXNativeTarget "Smart Club" */;
+			buildConfigurationList = 94B38A431CEBB71F00925126 /* Build configuration list for PBXNativeTarget "Smart Club" */;
 			buildPhases = (
-				94B2657A1CE3D614003B5A0C /* Sources */,
-				94B2657B1CE3D614003B5A0C /* Frameworks */,
-				94B2657C1CE3D614003B5A0C /* Resources */,
+				94B38A121CEBB71F00925126 /* Sources */,
+				94B38A131CEBB71F00925126 /* Frameworks */,
+				94B38A141CEBB71F00925126 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,69 +157,68 @@
 			);
 			name = "Smart Club";
 			productName = "Smart Club";
-			productReference = 94B2657E1CE3D614003B5A0C /* Smart Club.app */;
+			productReference = 94B38A161CEBB71F00925126 /* Smart Club.app */;
 			productType = "com.apple.product-type.application";
 		};
-		94B265911CE3D614003B5A0C /* Smart ClubTests */ = {
+		94B38A2E1CEBB71F00925126 /* Smart ClubTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94B265A91CE3D614003B5A0C /* Build configuration list for PBXNativeTarget "Smart ClubTests" */;
+			buildConfigurationList = 94B38A461CEBB71F00925126 /* Build configuration list for PBXNativeTarget "Smart ClubTests" */;
 			buildPhases = (
-				94B2658E1CE3D614003B5A0C /* Sources */,
-				94B2658F1CE3D614003B5A0C /* Frameworks */,
-				94B265901CE3D614003B5A0C /* Resources */,
+				94B38A2B1CEBB71F00925126 /* Sources */,
+				94B38A2C1CEBB71F00925126 /* Frameworks */,
+				94B38A2D1CEBB71F00925126 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				94B265941CE3D614003B5A0C /* PBXTargetDependency */,
+				94B38A311CEBB71F00925126 /* PBXTargetDependency */,
 			);
 			name = "Smart ClubTests";
 			productName = "Smart ClubTests";
-			productReference = 94B265921CE3D614003B5A0C /* Smart ClubTests.xctest */;
+			productReference = 94B38A2F1CEBB71F00925126 /* Smart ClubTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		94B2659C1CE3D614003B5A0C /* Smart ClubUITests */ = {
+		94B38A391CEBB71F00925126 /* Smart ClubUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94B265AC1CE3D614003B5A0C /* Build configuration list for PBXNativeTarget "Smart ClubUITests" */;
+			buildConfigurationList = 94B38A491CEBB71F00925126 /* Build configuration list for PBXNativeTarget "Smart ClubUITests" */;
 			buildPhases = (
-				94B265991CE3D614003B5A0C /* Sources */,
-				94B2659A1CE3D614003B5A0C /* Frameworks */,
-				94B2659B1CE3D614003B5A0C /* Resources */,
+				94B38A361CEBB71F00925126 /* Sources */,
+				94B38A371CEBB71F00925126 /* Frameworks */,
+				94B38A381CEBB71F00925126 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				94B2659F1CE3D614003B5A0C /* PBXTargetDependency */,
+				94B38A3C1CEBB71F00925126 /* PBXTargetDependency */,
 			);
 			name = "Smart ClubUITests";
 			productName = "Smart ClubUITests";
-			productReference = 94B2659D1CE3D614003B5A0C /* Smart ClubUITests.xctest */;
+			productReference = 94B38A3A1CEBB71F00925126 /* Smart ClubUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		94B265761CE3D614003B5A0C /* Project object */ = {
+		94B38A0E1CEBB71F00925126 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Meg Grasse";
 				TargetAttributes = {
-					94B2657D1CE3D614003B5A0C = {
+					94B38A151CEBB71F00925126 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
-					94B265911CE3D614003B5A0C = {
+					94B38A2E1CEBB71F00925126 = {
 						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 94B2657D1CE3D614003B5A0C;
+						TestTargetID = 94B38A151CEBB71F00925126;
 					};
-					94B2659C1CE3D614003B5A0C = {
+					94B38A391CEBB71F00925126 = {
 						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 94B2657D1CE3D614003B5A0C;
+						TestTargetID = 94B38A151CEBB71F00925126;
 					};
 				};
 			};
-			buildConfigurationList = 94B265791CE3D614003B5A0C /* Build configuration list for PBXProject "Smart Club" */;
+			buildConfigurationList = 94B38A111CEBB71F00925126 /* Build configuration list for PBXProject "Smart Club" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -212,37 +226,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 94B265751CE3D614003B5A0C;
-			productRefGroup = 94B2657F1CE3D614003B5A0C /* Products */;
+			mainGroup = 94B38A0D1CEBB71F00925126;
+			productRefGroup = 94B38A171CEBB71F00925126 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				94B2657D1CE3D614003B5A0C /* Smart Club */,
-				94B265911CE3D614003B5A0C /* Smart ClubTests */,
-				94B2659C1CE3D614003B5A0C /* Smart ClubUITests */,
+				94B38A151CEBB71F00925126 /* Smart Club */,
+				94B38A2E1CEBB71F00925126 /* Smart ClubTests */,
+				94B38A391CEBB71F00925126 /* Smart ClubUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		94B2657C1CE3D614003B5A0C /* Resources */ = {
+		94B38A141CEBB71F00925126 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B2658C1CE3D614003B5A0C /* LaunchScreen.storyboard in Resources */,
-				94B265891CE3D614003B5A0C /* Assets.xcassets in Resources */,
-				94B265871CE3D614003B5A0C /* Main.storyboard in Resources */,
+				94B38A291CEBB71F00925126 /* LaunchScreen.storyboard in Resources */,
+				94B38A261CEBB71F00925126 /* Assets.xcassets in Resources */,
+				94B38A241CEBB71F00925126 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94B265901CE3D614003B5A0C /* Resources */ = {
+		94B38A2D1CEBB71F00925126 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94B2659B1CE3D614003B5A0C /* Resources */ = {
+		94B38A381CEBB71F00925126 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,59 +266,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		94B2657A1CE3D614003B5A0C /* Sources */ = {
+		94B38A121CEBB71F00925126 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B265841CE3D614003B5A0C /* ViewController.swift in Sources */,
-				94B265821CE3D614003B5A0C /* AppDelegate.swift in Sources */,
+				94B38A211CEBB71F00925126 /* ViewController.m in Sources */,
+				94B38A1E1CEBB71F00925126 /* AppDelegate.m in Sources */,
+				94B38A1B1CEBB71F00925126 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94B2658E1CE3D614003B5A0C /* Sources */ = {
+		94B38A2B1CEBB71F00925126 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B265971CE3D614003B5A0C /* Smart_ClubTests.swift in Sources */,
+				94B38A341CEBB71F00925126 /* Smart_ClubTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94B265991CE3D614003B5A0C /* Sources */ = {
+		94B38A361CEBB71F00925126 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B265A21CE3D614003B5A0C /* Smart_ClubUITests.swift in Sources */,
+				94B38A3F1CEBB71F00925126 /* Smart_ClubUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		94B265941CE3D614003B5A0C /* PBXTargetDependency */ = {
+		94B38A311CEBB71F00925126 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 94B2657D1CE3D614003B5A0C /* Smart Club */;
-			targetProxy = 94B265931CE3D614003B5A0C /* PBXContainerItemProxy */;
+			target = 94B38A151CEBB71F00925126 /* Smart Club */;
+			targetProxy = 94B38A301CEBB71F00925126 /* PBXContainerItemProxy */;
 		};
-		94B2659F1CE3D614003B5A0C /* PBXTargetDependency */ = {
+		94B38A3C1CEBB71F00925126 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 94B2657D1CE3D614003B5A0C /* Smart Club */;
-			targetProxy = 94B2659E1CE3D614003B5A0C /* PBXContainerItemProxy */;
+			target = 94B38A151CEBB71F00925126 /* Smart Club */;
+			targetProxy = 94B38A3B1CEBB71F00925126 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		94B265851CE3D614003B5A0C /* Main.storyboard */ = {
+		94B38A221CEBB71F00925126 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				94B265861CE3D614003B5A0C /* Base */,
+				94B38A231CEBB71F00925126 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		94B2658A1CE3D614003B5A0C /* LaunchScreen.storyboard */ = {
+		94B38A271CEBB71F00925126 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				94B2658B1CE3D614003B5A0C /* Base */,
+				94B38A281CEBB71F00925126 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +327,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		94B265A41CE3D614003B5A0C /* Debug */ = {
+		94B38A411CEBB71F00925126 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -353,11 +368,10 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		94B265A51CE3D614003B5A0C /* Release */ = {
+		94B38A421CEBB71F00925126 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -395,7 +409,7 @@
 			};
 			name = Release;
 		};
-		94B265A71CE3D614003B5A0C /* Debug */ = {
+		94B38A441CEBB71F00925126 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -406,7 +420,7 @@
 			};
 			name = Debug;
 		};
-		94B265A81CE3D614003B5A0C /* Release */ = {
+		94B38A451CEBB71F00925126 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -417,7 +431,7 @@
 			};
 			name = Release;
 		};
-		94B265AA1CE3D614003B5A0C /* Debug */ = {
+		94B38A471CEBB71F00925126 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -429,7 +443,7 @@
 			};
 			name = Debug;
 		};
-		94B265AB1CE3D614003B5A0C /* Release */ = {
+		94B38A481CEBB71F00925126 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -441,7 +455,7 @@
 			};
 			name = Release;
 		};
-		94B265AD1CE3D614003B5A0C /* Debug */ = {
+		94B38A4A1CEBB71F00925126 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "Smart ClubUITests/Info.plist";
@@ -452,7 +466,7 @@
 			};
 			name = Debug;
 		};
-		94B265AE1CE3D614003B5A0C /* Release */ = {
+		94B38A4B1CEBB71F00925126 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "Smart ClubUITests/Info.plist";
@@ -466,40 +480,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		94B265791CE3D614003B5A0C /* Build configuration list for PBXProject "Smart Club" */ = {
+		94B38A111CEBB71F00925126 /* Build configuration list for PBXProject "Smart Club" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94B265A41CE3D614003B5A0C /* Debug */,
-				94B265A51CE3D614003B5A0C /* Release */,
+				94B38A411CEBB71F00925126 /* Debug */,
+				94B38A421CEBB71F00925126 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94B265A61CE3D614003B5A0C /* Build configuration list for PBXNativeTarget "Smart Club" */ = {
+		94B38A431CEBB71F00925126 /* Build configuration list for PBXNativeTarget "Smart Club" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94B265A71CE3D614003B5A0C /* Debug */,
-				94B265A81CE3D614003B5A0C /* Release */,
+				94B38A441CEBB71F00925126 /* Debug */,
+				94B38A451CEBB71F00925126 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		94B265A91CE3D614003B5A0C /* Build configuration list for PBXNativeTarget "Smart ClubTests" */ = {
+		94B38A461CEBB71F00925126 /* Build configuration list for PBXNativeTarget "Smart ClubTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94B265AA1CE3D614003B5A0C /* Debug */,
-				94B265AB1CE3D614003B5A0C /* Release */,
+				94B38A471CEBB71F00925126 /* Debug */,
+				94B38A481CEBB71F00925126 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		94B265AC1CE3D614003B5A0C /* Build configuration list for PBXNativeTarget "Smart ClubUITests" */ = {
+		94B38A491CEBB71F00925126 /* Build configuration list for PBXNativeTarget "Smart ClubUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94B265AD1CE3D614003B5A0C /* Debug */,
-				94B265AE1CE3D614003B5A0C /* Release */,
+				94B38A4A1CEBB71F00925126 /* Debug */,
+				94B38A4B1CEBB71F00925126 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 94B265761CE3D614003B5A0C /* Project object */;
+	rootObject = 94B38A0E1CEBB71F00925126 /* Project object */;
 }
