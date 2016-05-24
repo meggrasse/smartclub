@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#import <SocialRetailSRSDK/SRBeaconDelegate.h>
+#import <SocialRetailSRSDK/SRBeaconManager.h>
+#import <SocialRetailSRSDK/SRWebViewController.h>
+
+//@interface AppDelegate : NSObject <UIApplicationDelegate,SRBeaconDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,SRBeaconDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
