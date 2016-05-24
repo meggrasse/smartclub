@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9423EBEF1CF4F2E3009DF7B0 /* SongChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9423EBEE1CF4F2E3009DF7B0 /* SongChoiceViewController.m */; };
 		94B38A1B1CEBB71F00925126 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B38A1A1CEBB71F00925126 /* main.m */; };
 		94B38A1E1CEBB71F00925126 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B38A1D1CEBB71F00925126 /* AppDelegate.m */; };
 		94B38A211CEBB71F00925126 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B38A201CEBB71F00925126 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9423EBED1CF4F2E3009DF7B0 /* SongChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongChoiceViewController.h; sourceTree = "<group>"; };
+		9423EBEE1CF4F2E3009DF7B0 /* SongChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongChoiceViewController.m; sourceTree = "<group>"; };
 		94B38A161CEBB71F00925126 /* Smart Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B38A1A1CEBB71F00925126 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		94B38A1C1CEBB71F00925126 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				94B38A1F1CEBB71F00925126 /* ViewController.h */,
 				94B38A201CEBB71F00925126 /* ViewController.m */,
 				94B38A221CEBB71F00925126 /* Main.storyboard */,
+				9423EBED1CF4F2E3009DF7B0 /* SongChoiceViewController.h */,
+				9423EBEE1CF4F2E3009DF7B0 /* SongChoiceViewController.m */,
 				94B38A251CEBB71F00925126 /* Assets.xcassets */,
 				94B38A271CEBB71F00925126 /* LaunchScreen.storyboard */,
 				94B38A2A1CEBB71F00925126 /* Info.plist */,
@@ -280,6 +285,7 @@
 			files = (
 				94B38A211CEBB71F00925126 /* ViewController.m in Sources */,
 				94B38A1E1CEBB71F00925126 /* AppDelegate.m in Sources */,
+				9423EBEF1CF4F2E3009DF7B0 /* SongChoiceViewController.m in Sources */,
 				94B38A1B1CEBB71F00925126 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
