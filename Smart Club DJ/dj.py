@@ -1,11 +1,10 @@
 import pyglet
-
+import time
 player = pyglet.media.Player()
 beep = pyglet.resource.media('beep-01a.wav')
 player.queue(beep)
 player.play()
 edm = pyglet.resource.media('Kav_Verhouzer_LarryKoek_-_People_ft.wav')
-player.queue(edm)
 house = pyglet.resource.media('04 Da Funk.wav')
 trap = pyglet.resource.media('01 Know Me.wav')
 rap = pyglet.resource.media('Waves.wav')
@@ -15,8 +14,15 @@ player.queue(trap)
 player.queue(rap)
 player.queue(pop)
 player.volume = 1.0
-player.play()
-try:
-    pyglet.app.run()
-except KeyboardInterrupt:
-    player.next_source()
+while 1:
+    try:
+        player.play()
+        time.sleep(15)
+        player.next_source()
+    except KeyboardInterrupt:
+        print "interrupt"
+        break
+
+
+player.pause()
+pyglet.app.run()
