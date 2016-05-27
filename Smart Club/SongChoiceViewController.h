@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SocialRetailSRSDK/SRBeaconDelegate.h>
+#import <SocialRetailSRSDK/SRBeaconManager.h>
+#import <SocialRetailSRSDK/SRWebViewController.h>
 
-@interface SongChoiceViewController : UIViewController
+@interface SongChoiceViewController : UIViewController <SRBeaconDelegate>
+
+- (NSString *)sendDataTo:(NSString *)endpoint;
+
 
 @end
