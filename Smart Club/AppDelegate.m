@@ -53,6 +53,7 @@
 //beacon methods
 -(void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification {
     //Add these lines in the beginning of this method
+    
     UIApplicationState state = [application applicationState];
     NSDictionary * notifDict= notification.userInfo;
     [[SRBeaconManager sharedManager]showNotificationWithUserInfo:notifDict state:state];
