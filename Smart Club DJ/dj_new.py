@@ -7,7 +7,10 @@ import random
 import math
 
 music_corpus = {}
-
+#open music csv file containing the song names and genres.
+#using variables, split the genres into one variable genre and the song
+#titles in variable filepath
+#add all the genres into music_corpus
 with open('music.csv', 'rU') as musicfile:
     musicreader = csv.reader(musicfile, dialect=csv.excel_tab)
     for row in musicreader:
@@ -19,8 +22,10 @@ with open('music.csv', 'rU') as musicfile:
             music_corpus[genre].append(filepath)
 player = pyglet.media.Player()
 
+#method to clear votes
 def clear_vote_count():
     r = requests.get('http://smartclub.herokuapp.com/clearvotes')
+    s = requests.get('http://smartclub.herokuapp.com/resetscreamtracker')
 def play(type):
     clear_vote_count()
     print "b"
@@ -32,12 +37,15 @@ def play(type):
     player.volume = 1.0
     while 1:
         try:
-            player.play()
+            #player.play()
             time.sleep(10)
+            # after 10 seconds, get request to check upvotes/downvotes and possible noise reaction
             r = requests.get('http://smartclub.herokuapp.com/getvotecount')
             scream = requests.get('http://smartclub.herokuapp.com/wasthereascream')
             votes = json.loads(r.text)
             if ((votes['upvotes'] > votes['downvotes']) or (scream.text == "Yes")):
+                #go for 1/4th the songs duration and re check again and if response favorable,
+                #play the rest of the song and then play another song in the same genre
                 print (song.duration/4.0)
                 time.sleep(song.duration/4.0)
                 r = requests.get('http://smartclub.herokuapp.com/getvotecount')
@@ -54,7 +62,7 @@ def play(type):
                     return play(other_types[random_index])
                 return play(type)
             else:
-
+                #remove genre from the type so program plays a song from another genre
                 other_types = [key for key, val in music_corpus.iteritems()]
                 other_types.remove(type)
                 random_index = int(math.floor(random.random() * len(other_types)))
@@ -64,6 +72,8 @@ def play(type):
             break
 
 def start_dj(type):
+    #this function will be called first but it does everything similar
+    #to the play function. This is necessary to load songs and play immediately.
     print "a"
     clear_vote_count()
     number_of_songs_in_type = len(music_corpus[type])

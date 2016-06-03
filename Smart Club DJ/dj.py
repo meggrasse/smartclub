@@ -7,7 +7,10 @@ import random
 import math
 
 music_corpus = {}
-
+#open music csv file containing the song names and genres.
+#using variables, split the genres into one variable genre and the song
+#titles in variable filepath
+#add all the genres into music_corpus
 with open('music.csv', 'rU') as musicfile:
     musicreader = csv.reader(musicfile, dialect=csv.excel_tab)
     for row in musicreader:
