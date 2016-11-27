@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940930A21DE89818002E4E50 /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940930A11DE89818002E4E50 /* EstimoteSDK.framework */; };
+		940930A51DE898B0002E4E50 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940930A41DE898B0002E4E50 /* SystemConfiguration.framework */; };
+		940930A71DE898C3002E4E50 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940930A61DE898C3002E4E50 /* CoreLocation.framework */; };
+		940930A91DE898C9002E4E50 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940930A81DE898C9002E4E50 /* CoreBluetooth.framework */; };
 		9423EBEF1CF4F2E3009DF7B0 /* SongChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9423EBEE1CF4F2E3009DF7B0 /* SongChoiceViewController.m */; };
 		94B38A1B1CEBB71F00925126 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B38A1A1CEBB71F00925126 /* main.m */; };
 		94B38A1E1CEBB71F00925126 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B38A1D1CEBB71F00925126 /* AppDelegate.m */; };
@@ -14,10 +18,6 @@
 		94B38A241CEBB71F00925126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B38A221CEBB71F00925126 /* Main.storyboard */; };
 		94B38A261CEBB71F00925126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B38A251CEBB71F00925126 /* Assets.xcassets */; };
 		94B38A291CEBB71F00925126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B38A271CEBB71F00925126 /* LaunchScreen.storyboard */; };
-		94B38A341CEBB71F00925126 /* Smart_ClubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B38A331CEBB71F00925126 /* Smart_ClubTests.m */; };
-		94B38A3F1CEBB71F00925126 /* Smart_ClubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94B38A3E1CEBB71F00925126 /* Smart_ClubUITests.m */; };
-		94B38A4D1CEBB9C200925126 /* SocialRetailSRSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 94B38A4C1CEBB9C200925126 /* SocialRetailSRSDK.bundle */; };
-		94B38A4F1CEBBA0C00925126 /* SocialRetailSRSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B38A4E1CEBBA0C00925126 /* SocialRetailSRSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		940930A11DE89818002E4E50 /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EstimoteSDK.framework; sourceTree = "<group>"; };
+		940930A41DE898B0002E4E50 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		940930A61DE898C3002E4E50 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		940930A81DE898C9002E4E50 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		9423EBED1CF4F2E3009DF7B0 /* SongChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongChoiceViewController.h; sourceTree = "<group>"; };
 		9423EBEE1CF4F2E3009DF7B0 /* SongChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongChoiceViewController.m; sourceTree = "<group>"; };
 		94B38A161CEBB71F00925126 /* Smart Club.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Club.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,13 +55,7 @@
 		94B38A281CEBB71F00925126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94B38A2A1CEBB71F00925126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94B38A2F1CEBB71F00925126 /* Smart ClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart ClubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		94B38A331CEBB71F00925126 /* Smart_ClubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smart_ClubTests.m; sourceTree = "<group>"; };
-		94B38A351CEBB71F00925126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94B38A3A1CEBB71F00925126 /* Smart ClubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart ClubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		94B38A3E1CEBB71F00925126 /* Smart_ClubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smart_ClubUITests.m; sourceTree = "<group>"; };
-		94B38A401CEBB71F00925126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94B38A4C1CEBB9C200925126 /* SocialRetailSRSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SocialRetailSRSDK.bundle; sourceTree = "<group>"; };
-		94B38A4E1CEBBA0C00925126 /* SocialRetailSRSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SocialRetailSRSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B38A4F1CEBBA0C00925126 /* SocialRetailSRSDK.framework in Frameworks */,
+				940930A91DE898C9002E4E50 /* CoreBluetooth.framework in Frameworks */,
+				940930A71DE898C3002E4E50 /* CoreLocation.framework in Frameworks */,
+				940930A51DE898B0002E4E50 /* SystemConfiguration.framework in Frameworks */,
+				940930A21DE89818002E4E50 /* EstimoteSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,15 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		940930A31DE898B0002E4E50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				940930A81DE898C9002E4E50 /* CoreBluetooth.framework */,
+				940930A61DE898C3002E4E50 /* CoreLocation.framework */,
+				940930A41DE898B0002E4E50 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		94B38A0D1CEBB71F00925126 = {
 			isa = PBXGroup;
 			children = (
 				94B38A181CEBB71F00925126 /* Smart Club */,
-				94B38A321CEBB71F00925126 /* Smart ClubTests */,
-				94B38A3D1CEBB71F00925126 /* Smart ClubUITests */,
 				94B38A171CEBB71F00925126 /* Products */,
-				94B38A4C1CEBB9C200925126 /* SocialRetailSRSDK.bundle */,
-				94B38A4E1CEBBA0C00925126 /* SocialRetailSRSDK.framework */,
+				940930A11DE89818002E4E50 /* EstimoteSDK.framework */,
+				940930A31DE898B0002E4E50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,24 +141,6 @@
 				94B38A1A1CEBB71F00925126 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		94B38A321CEBB71F00925126 /* Smart ClubTests */ = {
-			isa = PBXGroup;
-			children = (
-				94B38A331CEBB71F00925126 /* Smart_ClubTests.m */,
-				94B38A351CEBB71F00925126 /* Info.plist */,
-			);
-			path = "Smart ClubTests";
-			sourceTree = "<group>";
-		};
-		94B38A3D1CEBB71F00925126 /* Smart ClubUITests */ = {
-			isa = PBXGroup;
-			children = (
-				94B38A3E1CEBB71F00925126 /* Smart_ClubUITests.m */,
-				94B38A401CEBB71F00925126 /* Info.plist */,
-			);
-			path = "Smart ClubUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +249,6 @@
 				94B38A291CEBB71F00925126 /* LaunchScreen.storyboard in Resources */,
 				94B38A261CEBB71F00925126 /* Assets.xcassets in Resources */,
 				94B38A241CEBB71F00925126 /* Main.storyboard in Resources */,
-				94B38A4D1CEBB9C200925126 /* SocialRetailSRSDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +284,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B38A341CEBB71F00925126 /* Smart_ClubTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +291,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94B38A3F1CEBB71F00925126 /* Smart_ClubUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
