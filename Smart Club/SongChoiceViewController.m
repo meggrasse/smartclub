@@ -8,10 +8,22 @@
 
 #import "SongChoiceViewController.h"
 
+#import "AppDelegate.h"
+#import <EstimoteSDK/EstimoteSDK.h>
+
+@interface SongChoiceViewController () <ESTBeaconManagerDelegate>
+
+@property (nonatomic) AppDelegate *appDelegate;
+
+@end
+
 @implementation SongChoiceViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    _appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    
     // Do any additional setup after loading the view.
 }
 
@@ -21,30 +33,13 @@
 }
 
 - (IBAction)voteThumbsUp:(UIButton *)sender {
-    [self sendDataTo:@"upvote"];
+    [_appDelegate sendDataTo:@"upvote"];
  }
 
 - (IBAction)voteThumbsDown:(UIButton *)sender {
-    [self sendDataTo:@"downvote"];
+    [_appDelegate sendDataTo:@"downvote"];
 }
 
--  (NSString *)sendDataTo:(NSString *)endpoint{
-    NSString *url = [@"https://smartclub.herokuapp.com/" stringByAppendingString:endpoint];
-    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
-    [request setHTTPMethod:@"GET"];
-    [request setURL:[NSURL URLWithString:url]];
-    NSError *error = [[NSError alloc] init];
-    NSHTTPURLResponse *responseCode = nil;
-    
-    NSData *oResponseData = [NSURLConnection sendSynchronousRequest:request returningResponse:&responseCode error:&error]; //probably should update this
-    
-    if([responseCode statusCode] != 200){
-        NSLog(@"Error getting %@, HTTP status code %li", url, (long)[responseCode statusCode]);
-        return nil;
-    }
-    
-    return [[NSString alloc] initWithData:oResponseData encoding:NSUTF8StringEncoding];
-}
 
 /*
 #pragma mark - Navigation

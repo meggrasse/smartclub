@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SongChoiceViewController : UIViewController <SRBeaconDelegate>
-
-- (NSString *)sendDataTo:(NSString *)endpoint;
+@interface SongChoiceViewController : UIViewController
 
 @end

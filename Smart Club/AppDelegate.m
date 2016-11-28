@@ -8,20 +8,17 @@
 
 #import "AppDelegate.h"
 
-#import <EstimoteSDK/EstimoteSDK.h>
-
-@interface AppDelegate () <ESTBeaconManagerDelegate>
-
-@property (nonatomic) ESTBeaconManager *beaconManager;
-
-@end
-
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.beaconManager = [ESTBeaconManager new];
     self.beaconManager.delegate = self;
     [self.beaconManager requestAlwaysAuthorization];
+    
+    [self.beaconManager startMonitoringForRegion:[[CLBeaconRegion alloc]
+                                                  initWithProximityUUID:[[NSUUID alloc]
+                                                                         initWithUUIDString:@"B9407F30-F5F8-466E-AFF9-25556B57FE6D"]
+                                                  major:16208 minor:60667 identifier:@"4ae37781e64e1168a5caee181d544b36"]];
     
     return YES;
 }
@@ -48,9 +45,33 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-//beacon methods
--(void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification {
-    //Add these lines in the beginning of this method
+#pragma mark - ESTBeaconManagerDelegate
+
+//Starting off with one beacon
+- (void)beaconManager:(id)manager didEnterRegion:(CLBeaconRegion *)region {
+    [self sendDataTo:@"upvote"];
+}
+
+- (void)beaconManager:(id)manager didExitRegion:(CLBeaconRegion *)region {
+    [self sendDataTo:@"downvote"];
+}
+
+-  (NSString *)sendDataTo:(NSString *)endpoint{
+    NSString *url = [@"https://smartclub.herokuapp.com/" stringByAppendingString:endpoint];
+    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
+    [request setHTTPMethod:@"GET"];
+    [request setURL:[NSURL URLWithString:url]];
+    NSError *error = [[NSError alloc] init];
+    NSHTTPURLResponse *responseCode = nil;
+    
+    NSData *oResponseData = [NSURLConnection sendSynchronousRequest:request returningResponse:&responseCode error:&error]; //probably should update this
+    
+    if([responseCode statusCode] != 200){
+        NSLog(@"Error getting %@, HTTP status code %li", url, (long)[responseCode statusCode]);
+        return nil;
+    }
+    
+    return [[NSString alloc] initWithData:oResponseData encoding:NSUTF8StringEncoding];
 }
 
 @end

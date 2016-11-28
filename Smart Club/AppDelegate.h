@@ -8,9 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#import <EstimoteSDK/EstimoteSDK.h>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate, ESTBeaconManagerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic) ESTBeaconManager *beaconManager;
+
+-  (NSString *)sendDataTo:(NSString *)endpoint;
 
 @end
 
