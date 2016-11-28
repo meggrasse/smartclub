@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Activate bluetooth to recieve important notifications from Smart Club</string>
+	<string>To help deterimine curated playlist in Smart Club</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>fetch</string>

@@ -8,16 +8,10 @@
 
 #import "SongChoiceViewController.h"
 
-@interface SongChoiceViewController ()
-
-@end
-
 @implementation SongChoiceViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self performSelector:@selector(getNearestBeacon) withObject:nil afterDelay:5.0];
-    //    [[SRBeaconManager]]
     // Do any additional setup after loading the view.
 }
 
@@ -50,22 +44,6 @@
     }
     
     return [[NSString alloc] initWithData:oResponseData encoding:NSUTF8StringEncoding];
-}
-
-- (void) getNearestBeacon {
-    //check if you can check how far they are from beacon
-    NSDictionary* closestBeacon = [[SRBeaconManager sharedManager] GetNearestBeacon];
-    NSString* closestMinor = [closestBeacon valueForKey:@"minor"];
-    NSString* uuid = [[SRBeaconManager sharedManager] uuidCurrent];
-    if ([closestMinor isEqualToString:@"582"]) {
-        NSString* postVal = [@"1/" stringByAppendingString:uuid];
-        [self sendDataTo: postVal];
-    }
-    else if ([closestMinor isEqualToString:@"583"]) {
-        NSString* postVal = [@"2/" stringByAppendingString:uuid];
-        [self sendDataTo: postVal];
-    }
-    return;
 }
 
 /*
