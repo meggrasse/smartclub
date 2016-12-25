@@ -1,3 +1,6 @@
 [submodule "smartclub-pi"]
 	path = smartclub-pi
 	url = https://github.com/meggrasse/smartclub-pi
+[submodule "smartclub-ios"]
+	path = smartclub-ios
+	url = https://github.com/meggrasse/smartclub-ios
