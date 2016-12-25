@@ -1,0 +1,3 @@
+[submodule "smartclub-pi"]
+	path = smartclub-pi
+	url = https://github.com/meggrasse/smartclub-pi
