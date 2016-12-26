@@ -7,3 +7,6 @@
 [submodule "smartclub-dj"]
 	path = smartclub-dj
 	url = https://github.com/meggrasse/smartclub-dj
+[submodule "smartclub-server"]
+	path = smartclub-server
+	url = https://github.com/meggrasse/smartclub-server
