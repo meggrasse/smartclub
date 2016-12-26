@@ -4,3 +4,6 @@
 [submodule "smartclub-ios"]
 	path = smartclub-ios
 	url = https://github.com/meggrasse/smartclub-ios
+[submodule "smartclub-dj"]
+	path = smartclub-dj
+	url = https://github.com/meggrasse/smartclub-dj
